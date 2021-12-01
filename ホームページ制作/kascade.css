@@ -1,0 +1,12 @@
+li {
+    color: #db0f0f;
+}
+li a[href*="home"] {
+    color: inherit;
+}
+li a[href*="brog"] {
+    color: initial;
+}
+li a[href*="about"] {
+    color: unset;
+}

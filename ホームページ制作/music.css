@@ -1,0 +1,48 @@
+/* body{
+    background-color: #8acf99;
+} */
+#title{
+    background-color: rgb(220, 228, 223);
+}
+.big{
+    font-size: 45px;
+}
+/* article * {
+    color: red;
+} */
+a[href] {
+    color: slateblue;
+}
+/* article p:first-of-type {
+    color: tomato;
+} */
+/* article :first-child {
+    color: yellow;
+} */
+article p:nth-of-type(1) {
+    color: rgb(238, 61, 29);
+}
+article p:not(:first-of-type) {
+    color: rgb(138, 206, 223);
+}
+p:hover {
+    background-color: rgb(122, 117, 122) ;
+}
+/* p:not(:hover) {
+    background-color: rgb(122, 117, 122) ;
+} */
+h1::after {
+    content: "!!!!!!";
+}
+/* p::first-line {
+    font-size: 30px;
+} */
+p::first-letter {
+    font-size: 40px;
+}
+article p + p {
+    margin-top: 40px;
+}
+/* article h1 ~ p {
+    color: tomato;
+} */

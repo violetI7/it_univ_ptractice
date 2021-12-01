@@ -1,0 +1,16 @@
+ul.colored {
+    background-color: #87ceeb;
+    outline: 1px solid black;
+}
+ul.colored li {
+    background-color: #daa410;
+    outline: 1px solid black;
+}
+ul.colored li h1 {
+    background-color: #cf5a16;
+    outline: 1px solid black;
+}
+ul.colored li p {
+    background-color: #e497da;
+    outline: 1px solid black;
+}

@@ -1,0 +1,7 @@
+div{
+    color: #3535b8;
+    font-size: 3rem;
+    background-color: #7cd3e9;
+    width: calc(100% / 3);
+    margin-top: 100px 0 50px 100px;
+}

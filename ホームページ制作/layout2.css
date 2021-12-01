@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+.conteiner {
+    width: 800px;
+    margin: 0 auto;
+}
+header {
+    height: 80px;
+}
+main {
+    height: 300px;
+    display: flex;
+}
+.right {
+    flex: 1;
+}
+.left {
+    flex: 2;
+}
+.left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+footer {
+    height: 120px;
+}
